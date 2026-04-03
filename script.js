@@ -107,7 +107,7 @@ function actualizarCountdown() {
   if (distance <= 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML =
-      `<span class="carta-lista">Â¡Tu cartita estÃ¡ lista! Toca el corazÃ³n ðŸ’Œ</span>`;
+      `<span class="carta-lista">¡La cartita está lista! Toca el corazón mi princesa 💗</span>`;
     // Cerrar modal si estaba abierto
     cerrarModal();
     return;
